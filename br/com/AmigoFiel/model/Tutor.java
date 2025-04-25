@@ -21,9 +21,9 @@ public class Tutor {
             throw new IllegalArgumentException("Telefone inválido.");
         if (email == null || !email.contains("@"))
             throw new IllegalArgumentException("E-mail inválido.");
-        if (endereco == null || !endereco .isBlank())
+        if (endereco == null || !endereco.isBlank())
             throw new IllegalArgumentException("Endereco inválido.");
-        if (cpf == null || !cpf .isBlank())
+        if (cpf == null || !cpf.isBlank())
             throw new IllegalArgumentException("Cpf inválido.");
 
 
@@ -32,5 +32,25 @@ public class Tutor {
         this.telefone = telefone;
         this.email = email;
         this.endereco = endereco;
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public String getCpf() {
+        return cpf;
+    }
+
+    public String getEndereco() {
+        return endereco;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public String getTelefone() {
+        return telefone;
     }
 }

@@ -1,11 +1,11 @@
 package br.com.AmigoFiel.enums;
 
 public enum TipoDeServico {
-    MEDICAMENTO("Medicamento"),
-    SKIN_CARE("Skin Care"),
-    HIGIENE_PESSOAL("Higiene Pessoal"),
-    UTILIDADES("Utilidades"),
-    OUTRA("Outra");
+    CASTRACAO("Castração"),
+    PROCEDIMENTO("Procedimento, Ortopedia, Banho e tosa, aparar unhas, vacinação, vermifugação"),
+    EXTRACAO("Extração de dentes"),
+    CUIDADOS_OPERATORIOS("Cuidos pré e pós cirurgicos, alimentação, medicamentos"),
+    OUTRA("Outros");
 
     private final String descricao;
 

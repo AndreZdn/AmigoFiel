@@ -30,4 +30,20 @@ public class Agendamento  {
         this.servicos = servicos;
         this.funcionario = funcionario;
     }
+
+    public LocalDateTime getDataHora() {
+        return dataHora;
+    }
+
+    public Animal getAnimal() {
+        return animal;
+    }
+
+    public Servicos getServicos() {
+        return servicos;
+    }
+
+    public Funcionario getFuncionario() {
+        return funcionario;
+    }
 }

@@ -28,4 +28,20 @@ public class Servicos {
         this.tutor = tutor;
         this.preco = preco;
     }
+
+    public TipoDeServico getTipoDeServico() {
+        return tipoDeServico;
+    }
+
+    public Funcionario getFuncionario() {
+        return funcionario;
+    }
+
+    public Tutor getTutor() {
+        return tutor;
+    }
+
+    public Double getPreco() {
+        return preco;
+    }
 }

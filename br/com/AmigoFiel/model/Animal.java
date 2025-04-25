@@ -42,5 +42,29 @@ public class Animal {
         this.tutor = tutor;
 
     }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public String getEspecie() {
+        return especie;
+    }
+
+    public String getRaca() {
+        return raca;
+    }
+
+    public int getIdade() {
+        return idade;
+    }
+
+    public int getPeso() {
+        return peso;
+    }
+
+    public Tutor getTutor() {
+        return tutor;
+    }
 }
 

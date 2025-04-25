@@ -1,10 +1,12 @@
 package br.com.AmigoFiel.enums;
 
 public enum Especializacao {
-    MEDICAMENTO("Medicamento"),
-    SKIN_CARE("Skin Care"),
-    HIGIENE_PESSOAL("Higiene Pessoal"),
-    UTILIDADES("Utilidades"),
+    CLINICO_GERAL("Clinico geral"),
+    CIRURGIAO("Castração, remoção de tumeros, ortopedia"),
+    ANESTESISTA("Responsavel pela anestesia e monitoramento durante cirurgias"),
+    CARDIOLOGISTA("Cardiologista"),
+    ODONTOLOGISTA("Odontologista"),
+    NUTRICIONISTA("Nutricionista"),
     OUTRA("Outra");
 
     private final String descricao;

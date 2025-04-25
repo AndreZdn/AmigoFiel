@@ -28,4 +28,20 @@ public class Funcionario {
         this.especializacao = especializacao;
         this.salario = salario;
     }
+
+    public Cargo getCargo() {
+        return cargo;
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public Especializacao getEspecializacao() {
+        return especializacao;
+    }
+
+    public Double getSalario() {
+        return salario;
+    }
 }
