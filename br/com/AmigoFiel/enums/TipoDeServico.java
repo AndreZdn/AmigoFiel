@@ -2,9 +2,9 @@ package br.com.AmigoFiel.enums;
 
 public enum TipoDeServico {
     CASTRACAO("Castração"),
-    PROCEDIMENTO("Procedimento, Ortopedia, Banho e tosa, aparar unhas, vacinação, vermifugação"),
+    PROCEDIMENTO("Procedimento"),
     EXTRACAO("Extração de dentes"),
-    CUIDADOS_OPERATORIOS("Cuidos pré e pós cirurgicos, alimentação, medicamentos"),
+    CUIDADOS_OPERATORIOS("Cuidos operatórios"),
     OUTRA("Outros");
 
     private final String descricao;

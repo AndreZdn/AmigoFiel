@@ -1,11 +1,15 @@
 package br.com.AmigoFiel.enums;
 
 public enum Cargo {
-    MEDICAMENTO("Medicamento"),
-    SKIN_CARE("Skin Care"),
-    HIGIENE_PESSOAL("Higiene Pessoal"),
-    UTILIDADES("Utilidades"),
-    OUTRA("Outra");
+    VETERINARIO("Veterinário"),
+    AUXILIAR_VETERINARIO("Auxiliar Veterinário"),
+    RECEPCIONISTA("Recepcionista"),
+    ADMINISTRATIVO("Administrativo"),
+    TOSADOR("Tosador"),
+    AUXILIAR_DE_LIMPEZA("Auxiliar de Limpeza"),
+    ESTAGIARIO("Estagiário"),
+    OUTRO("Outro");
+
 
     private final String descricao;
 

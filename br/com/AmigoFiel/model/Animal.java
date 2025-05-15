@@ -24,7 +24,7 @@ public class Animal {
             throw new IllegalArgumentException("Nome inválido.");
         if (especie == null || especie.isBlank())
             throw new IllegalArgumentException("Especie inválido.");
-        if (raca == null || !raca.isBlank())
+        if (raca == null || raca.isBlank())
             throw new IllegalArgumentException("Raca inválido.");
         if (tutor == null)
             throw new IllegalArgumentException("Tutor inválido.");

@@ -19,7 +19,7 @@ public class Servicos {
         if (funcionario == null)
             throw new IllegalArgumentException("funcionario inválido.");
         if (tutor == null)
-            throw new IllegalArgumentException("Endereco inválido.");
+            throw new IllegalArgumentException("tutor inválido.");
         if (preco < 0)
             throw new IllegalArgumentException("preço inválido.");
 
